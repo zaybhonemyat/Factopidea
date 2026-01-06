@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        body{
+            background-color: aliceblue;
+        }
+           .main-container{
+            width: 400px;
+            margin: auto;
+            background-color: lightblue;
+            padding: 20px;
+            margin-top: 50px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        input{
+            width: 70%;
+            padding: 15px;
+            margin: 10px 0 20px 0;
+            border: 1px solid black;
+            border-radius: 4px;
+        }
+        
+        footer {
+            background-color: darkgreen;
+            text-align: center;
+            font-size: small;
+            padding: 20px;
+            color: aliceblue;
+            margin-top: 50px;
+        }
+        .footer-topic{
+            text-align: center;
+            color: orangered;
+            font-family: myFont;
+            font-size: 50px;
+        }
+        .footer-p{
+            display: inline;
+            color: yellow;
+            font-size: large;
+            text-align: center;
+        }
+        .footer-guide a{
+            font-size: 30px;
+            padding: 10px;
+            text-decoration: none;
+            color: lightblue;
+        }
+        .footer-guide{
+            text-align: center;
+        }
+        .footer-copyright{
+            color: yellow;
+            text-decoration: underline;
+        }
+         header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 5%;
+            background-color: rgb(110, 233, 255);
+            z-index: 1000;
+            position: sticky;
+            top:0
+        }
+
+        header h1 {
+            font-family: myFont, Arial, sans-serif;
+            color: red;
+            font-size: 32px;
+        }
+
+        nav a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: darkblue;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: crimson;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Factopedia</h1>
+        <nav>
+            <a href="http://127.0.0.1:5500/index.html">Home</a>
+            <a href="http://127.0.0.1:5500/aboutus.html#">About Us</a>
+            <a href="http://127.0.0.1:5500/ideas.html#">Fact</a>
+            <a href="#">Contact Us</a>
+        </nav>
+    </header>
+    <div class="main-container">
+        <h1>Contact Us</h1>
+        <form action="">
+            <label for="fullname">Name:</label><br>
+            <input type="text" id="fullname" placeholder="Your full name" required><br>
+
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" placeholder="Your email" required><br>
+
+            <label for="Age">Your Age:</label><br>
+            <input type="text" id="Age" placeholder="Your age" required><br>
+
+            <label for="remark">Reasons:</label><br>
+            <textarea name="remark" id="remark" rows="10" cols="30" placeholder="Tell us why you want to contact us :3"></textarea>
+
+             <input type="button" value="Sumbit" onclick="alert('Email to send: zaybhonemyat999@gmail.com. You can also')">
+        </form>
+    </div>
+     <footer>
+        <div class="footer-content">
+            <h1 class="footer-topic">Factopedia</h1>
+        <div class="footer-guide">
+            <a href="http://127.0.0.1:5500/index.html">Home</a>
+            <a href="http://127.0.0.1:5500/aboutus.html">About Us</a>
+            <a href="http://127.0.0.1:5500/ideas.html#">Fact</a>
+            <a href="#">Contact Us</a>
+        </div>
+        <hr>
+        <p class="footer-p">Factopedia is made to learn intersteving fact about different topic so that you can improve your genral knowlage</p>
+        <p class="christmas">Merry Christmas Everyone🎄. Enjoys reading our facts🎅.</p>
+        <p class="footer-copyright"> Copyright © 2025 Factopedia. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

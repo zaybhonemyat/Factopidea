@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta-name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editing FACTs</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        @font-face {
+            font-family: myFont;
+            src: url(Rapunled.otf);
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: aliceblue;
+            color: black;
+        }
+
+        header {
+            background-color: rgb(110, 233, 255);
+            padding: 15px 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+        }
+
+        header h1 {
+            font-family: myFont;
+            font-size: 32px;
+            color: red;
+        }
+
+        nav a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: darkblue;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: crimson;
+        }
+
+        .overlay {
+            background: rgba(0, 0, 0, 0.1);
+            padding: 50px 20px;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: black;
+        }
+
+        .fact-box {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .fact {
+            margin-bottom: 15px;
+            padding: 10px;
+            border-left: 4px solid gray;
+            background: rgb(240, 240, 240);
+            border-radius: 5px;
+            font-size: 18px;
+            color: black;
+        }
+
+        footer {
+            background-color: darkgreen;
+            text-align: center;
+            padding: 20px;
+            color: white;
+            margin-top: 40px;
+        }
+
+        footer a {
+            font-size: larger;
+            color: lightblue;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        footer a:hover {
+            color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Factopedia</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="aboutus.html">About Us</a>
+            <a href="ideas.html">Fact</a>
+            <a href="contant_us.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <div class="overlay">
+        <h2>Editing FACTs</h2>
+
+        <div class="fact-box">
+            <div class="fact">FACT: Using sfx make your editing a lot better.</div>
+            <div class="fact">FACT: Impact shake and a white flash make beat drops stronger.</div>
+            <div class="fact">FACT: Good audio syncing makes any edit look professional.</div>
+            <div class="fact">FACT: Color grading can change the whole mood of your video.</div>
+            <div class="fact">FACT: Smooth motion blur makes transitions look better.</div>
+            <div class="fact">FACT: Your clip should flow and they must be somehow connected.</div>
+        </div>
+    </div>
+
+    <footer>
+        <h3>Factopedia</h3>
+
+        <div>
+            <a href="index.html">Home</a>
+            <a href="aboutus.html">About Us</a>
+            <a href="ideas.html">Fact</a>
+            <a href="contant_us.html">Contact Us</a>
+        </div>
+
+        <p style="margin-top: 10px;">Factopedia shares simple facts to help you learn more every day.</p>
+        <p class="christmas">Merry Christmas Everyone🎄. Enjoys reading our facts🎅.</p>
+        <p style="margin-top: 5px;">© 2025 Factopedia. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factopedia</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        @font-face {
+            font-family: myFont;
+            src: url(Rapunled.otf);
+        }
+        body {
+            background: linear-gradient(180deg, #bcd7ff, #e8f0ff, #ffeaf5);
+            background-attachment: fixed;
+            color: #1f1f1f;
+            font-family: "Poppins", sans-serif;
+            line-height: 1.7;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 22px 6%;
+            background-color: rgb(110, 233, 255);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            border-bottom: 3px solid rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(6px);
+                        z-index: 1000;
+            position: sticky;
+            top:0
+        }
+        h1{
+            font-family: myFont;
+        }
+        header h1 {
+            font-family: "Oswald", sans-serif;
+            font-size: 2.5rem;      
+            letter-spacing: 2px;
+            color: #ff3b3b;
+        }
+
+        
+        nav {
+            display: flex;          
+            align-items: center;    
+            gap: 20px;              
+        }
+
+
+        nav a {
+            text-decoration: none;
+            color: darkblue;
+            font-weight: bold;
+            font-size: 18px;        
+            cursor: pointer;
+            transition: transform 0.2s, color 0.2s;
+        }
+
+
+        nav .nav-logo {
+            height: 35px;
+            width: auto;            
+            border-radius: 6px;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+
+        nav a:hover {
+            color: crimson;
+        }
+
+        nav .nav-logo:hover {
+            transform: scale(1.1);
+        }
+
+        .image{
+        width: 42%;
+        margin: 20px auto;
+        display: block;
+        border-radius: 15px;
+        box-shadow: 0 5px 12px
+        }
+        .footer-topic{
+            text-align: center;
+            color: orangered;
+            font-family: myFont;
+            font-size: 50px;
+        }
+        .footer-p{
+            display: inline;
+            color: yellow;
+            font-size: large;
+            text-align: center;
+        }
+        .footer-guide a{
+            font-size: 30px;
+            padding: 10px;
+            text-decoration: none;
+            color: lightblue;
+        }
+        .footer-guide{
+            text-align: center;
+        }
+        .footer-copyright{
+            color: yellow;
+            text-decoration: underline;
+        }
+        html{
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Factopedia</h1>
+        <nav>
+            <a href="http://127.0.0.1:5500/index.html">Home</a>
+
+        <a href="#oasis">
+            <img src="oasis_logo.png" alt="Oasis_Logo" class="nav-logo">
+        </a>
+
+        <a href="#keshi">
+            <img src="requiem.jpg" alt="Keshi Requiem Icon" class="nav-logo">
+        </a>
+
+            <a href="http://127.0.0.1:5500/aboutus.html#">About Us</a>
+
+            <a href="http://127.0.0.1:5500/ideas.html#">Fact</a>
+
+            <a href="http://127.0.0.1:5500/contant_us.html">Contact Us</a>
+        </nav>
+    </header>
+
+        <h2 class="section-title"> Oasis</h2>
+        <section id="oasis">
+            <div class="fact">
+            <h3>Oasis surprisingly Split & Reunion</h3>
+            <p>Oasis officially split in 2009 after a major disagreement. The band later reunited and became active again by 2024.</p>
+        </div>
+
+            <img class="image" src="split up.jpg" alt="Oasis">
+
+        <div class="fact">
+            <h3>Record-Breaking Album</h3>
+            <p>Their third album, Be Here Now, became the fastest-selling album in British history.</p>
+        </div>
+
+            <img class="image" src="be here now.jpg" alt="Oasis">
+
+        <div class="fact">
+            <h3>The Origin Behind the Name “Oasis”</h3>
+            <p>The band was originally called The Rain. Liam renamed it after seeing “Oasis” on a poster in his room.</p>
+        </div>
+
+            <img class="image" src="oasis.webp" alt="Oasis"> 
+
+        <div class="fact">
+            <h3>Noel Gallagher</h3>
+            <p>Noel wrote many of Oasis’ biggest hits, including Wonderwall and Don’t Look Back in Anger, totaling over 190 songs.</p>
+        </div>
+
+            <img class="image" src="noel.jpg" alt="Oasis">
+
+        <div class="fact">
+        <section id="oasis">
+
+            <h3>‘Supersonic’ Made in a Single Day</h3>
+            <p>The band wrote and recorded Supersonic in just one day while in a Liverpool studio.</p>
+        </div>
+
+            <img class="image" src="supersonic.jpg" alt="Oasis">
+
+        <div class="fact">
+            <h3>The Gallagher Brothers</h3>
+            <p>Liam and Noel Gallagher are siblings and served as the core members of Oasis.</p>
+        </div>
+
+            <img class="image" src="brothers.jpg" alt="Oasis">
+
+        <div class="fact">
+            <h3>The Dispute That Stopped the Tour</h3>
+            <p>A backstage conflict during a tour led to Noel stepping away and the rest of the shows being cancelled.</p>
+        </div>
+
+            <img class="image" src="splitupup.webp" alt="Oasis">
+
+        </section>
+
+        
+        <h2 class="section-title"> Keshi</h2>
+        <section id="keshi">
+            <div class="fact">
+            <h3>Keshi: His ethnicity</h3>
+            <p>Keshi is known for lo-fi R&B with emotional, soothing melodies.</p>
+        </div>
+
+            <img class="image" src="keshi.jpg" alt="Keshi">
+
+        <div class="fact">
+            <h3>From Nurse to Musician</h3>
+            <p>He switched from oncology nursing to a full-time music career after a difficult experience at his hospital job.</p>
+        </div>
+
+            <img class="image" src="nurse.jpg" alt="Keshi">
+
+        <div class="fact">
+            <h3>How “Keshi” Got His Name</h3>
+            <p>The name comes from a Japanese pronunciation of “Casey,” given by a childhood friend’s parents.</p>
+        </div>
+
+            <img class="image" src="name.jpg" alt="Keshi">
+
+        <div class="fact">
+            <h3>Keshi on Fame & Fan Messages</h3>
+            <p>He shared that he gets many fan messages daily. It can be tiring, but he appreciates replying.</p>
+        </div>
+
+            <img class="image" src="fan.jpg" alt="Keshi">
+
+        <div class="fact">
+            <h3>Keshi’s Signature music style</h3>
+            <p>His music blends Neo-Soul and R&B with complex jazz-influenced guitar chords.</p>
+        </div>
+
+            <img class="image" src="music_style.jpg" alt="Keshi">
+
+        <div class="fact">
+            <h3>Childhood love</h3>
+            <p>Keshi and Mai have been together since childhood. They got engaged in 2020 and now live together in Texas.</p>
+        </div>
+
+            <img class="image" src="mai.jpg" alt="Keshi">
+
+        <div class="fact">
+            <h3>Self-Taught</h3>
+            <p>He learned guitar using his grandfather’s classical guitar and a Vietnamese music book.</p>
+        </div>
+
+            <img class="image" src="self.jpg" alt="Keshi">
+
+        <div class="fact">
+            <h3>Early Talent & Hobbies</h3>
+            <p>He learned piano as a kid, played in orchestra, and also enjoys gaming like Valorant.</p>
+        </div>
+
+            <img class="image" src="kid_keshi.jpg" alt="Keshi">
+
+        <div class="fact">
+            <h3>Tattoos and its meaning</h3>
+            <p>He has a full sleeve with tigers and waves, and another tattoo representing his family’s zodiac signs.</p>
+        </div>
+
+            <img class="image" src="tatooo.jpg" alt="Keshi">
+        </section>  
+
+    <footer>
+        <div class="footer-content">
+            <h1 class="footer-topic">Factopedia</h1>
+        <div class="footer-guide">
+            <a href="http://127.0.0.1:5500/index.html">Home</a>
+            <a href="http://127.0.0.1:5500/aboutus.html#">About Us</a>
+            <a href="http://127.0.0.1:5500/ideas.html#">Fact</a>
+            <a href="http://127.0.0.1:5500/contant_us.html">Contact Us</a>
+        </div>
+        <hr>
+        <p class="footer-p">Factopedia is made to learn intersteving fact about different topic so that you can improve your genral knowlage</p>
+        <p class="christmas">Merry Christmas Everyone🎄. Enjoys reading our facts🎅.</p>
+        <p class="footer-copyright"> Copyright © 2025 Factopedia. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

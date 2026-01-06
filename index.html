@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factopedia - Discover Amazing Facts</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        @font-face {
+            font-family: myFont;
+            src: url(Rapunled.otf);
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: rgb(244, 247, 252);
+            color: rgb(34, 34, 34);
+            line-height: 1.6;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 5%;
+            background-color: rgb(110, 233, 255);
+            z-index: 1000;
+            position: sticky;
+            top:0
+        }
+
+        header h1 {
+            font-family: myFont, Arial, sans-serif;
+            color: red;
+            font-size: 32px;
+        }
+
+        nav a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: darkblue;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: crimson;
+        }
+
+        main {
+            text-align: center;
+            padding: 160px 20px;
+        }
+
+        .main-topic h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+            color: darkgreen;
+        }
+
+        .main-topic p {
+            font-size: 19px;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            text-decoration: none;
+            background-color: darkgreen;
+            color: white;
+            padding: 30px 40px;
+            border-radius: 5px;
+            transition: background-color 0.2s;
+        }
+
+        .btn:hover {
+            background-color: rgb(9, 218, 9);
+        }
+
+        footer {
+            background-color: darkgreen;
+            text-align: center;
+            font-size: small;
+            padding: 20px;
+            color: aliceblue;
+            margin-top: 50px;
+        }
+        .footer-topic{
+            text-align: center;
+            color: orangered;
+            font-family: myFont;
+            font-size: 50px;
+        }
+        .footer-p{
+            display: inline;
+            color: yellow;
+            font-size: large;
+            text-align: center;
+        }
+        .footer-guide a{
+            font-size: 30px;
+            padding: 10px;
+            text-decoration: none;
+            color: lightblue;
+        }
+        .footer-guide{
+            text-align: center;
+        }
+        .footer-copyright{
+            color: yellow;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Factopedia</h1>
+        <nav>
+            <a href="http://127.0.0.1:5500/index.html">Home</a>
+            <a href="http://127.0.0.1:5500/aboutus.html#">About Us</a>
+            <a href="http://127.0.0.1:5500/ideas.html#">Fact</a>
+            <a href="http://127.0.0.1:5500/contant_us.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="main-topic">
+            <h1>Discover Amazing Facts</h1>
+            <p>Let's explore mind-blowing facts from around the world!</p>
+            <a class="btn" href="http://127.0.0.1:5500/ideas.html#">Start Exploring</a>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <h1 class="footer-topic">Factopedia</h1>
+        <div class="footer-guide">
+            <a href="http://127.0.0.1:5500/index.html">Home</a>
+            <a href="http://127.0.0.1:5500/aboutus.html#">About Us</a>
+            <a href="http://127.0.0.1:5500/ideas.html#">Fact</a>
+            <a href="http://127.0.0.1:5500/contant_us.html">Contact Us</a>
+        </div>
+        <hr>
+        <p class="footer-p">Factopedia is made to learn intersteving fact about different topic so that you can improve your genral knowlage</p>
+        <p class="christmas">Merry Christmas Everyone🎄. Enjoys reading our facts🎅.</p>
+        <p class="footer-copyright"> Copyright © 2025 Factopedia. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
